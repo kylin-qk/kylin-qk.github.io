@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-11T06:35:27.116Z</updated>
+  <updated>2019-11-12T06:48:54.409Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>随记</title>
+    <link href="http://yoursite.com/2019/11/12/%E9%9A%8F%E8%AE%B0/"/>
+    <id>http://yoursite.com/2019/11/12/随记/</id>
+    <published>2019-11-12T06:48:54.408Z</published>
+    <updated>2019-11-12T06:48:54.409Z</updated>
+    
+    <content type="html"><![CDATA[<p>#小小的c语言说明<br>……………………..<br>m=++n-2等价于n=n+1,m=n-2;…………….m=n++-2;等价于m=n-2<br>,mn=n+1;<br>一定要努力的学好c语言，多上机子，加油！！！</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#小小的c语言说明&lt;br&gt;……………………..&lt;br&gt;m=++n-2等价于n=n+1,m=n-2;…………….m=n++-2;等价于m=n-2&lt;br&gt;,mn=n+1;&lt;br&gt;一定要努力的学好c语言，多上机子，加油！！！&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>New Document</title>
