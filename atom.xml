@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-14T09:03:32.197Z</updated>
+  <updated>2019-11-17T11:19:55.521Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高数1</title>
+    <link href="http://yoursite.com/2019/11/17/%E9%AB%98%E6%95%B01/"/>
+    <id>http://yoursite.com/2019/11/17/高数1/</id>
+    <published>2019-11-17T11:19:55.520Z</published>
+    <updated>2019-11-17T11:19:55.521Z</updated>
+    
+    <content type="html"><![CDATA[<p>#洛必达法则<br>##1.极限零比零未定型；<br>##2.对于极限是无穷大减无穷大，先转化成零比零型在进型计算；<br>##3.对于极限是1的无穷大型，可先取对数再转化为零比零型；同理还有零的零次方型；<br>##4.对于零比零型的有时要进行适当变形，再利用等价无穷小代换求解；<br>##5.还可先进行等价无穷小代换在进行计算；<br>##6.如果f(x)在x0的某一邻域有二阶导数，则（x0,y0)是拐点的必要条件是f(x)的二阶导等于零；<br>##7.无穷小相加结果为低阶，相乘幂之和；<br>##8.导数的定义解题！！！！！<br>##9.求积分的方法：<br>###1.将复杂的进行凑分，换元，记公式。（提醒复习之用）<br>###2.分部积分法：多次运用，转换变量，一般按照反对幂三指顺序，前者为u,后者为v。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#洛必达法则&lt;br&gt;##1.极限零比零未定型；&lt;br&gt;##2.对于极限是无穷大减无穷大，先转化成零比零型在进型计算；&lt;br&gt;##3.对于极限是1的无穷大型，可先取对数再转化为零比零型；同理还有零的零次方型；&lt;br&gt;##4.对于零比零型的有时要进行适当变形，再利用等价无穷小代
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>与单片机相关零碎知识</title>
