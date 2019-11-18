@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-17T11:19:55.521Z</updated>
+  <updated>2019-11-18T15:31:00.162Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>#c注意及嵌套循环</title>
+    <link href="http://yoursite.com/2019/11/18/#c%E6%B3%A8%E6%84%8F%E5%8F%8A%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF/"/>
+    <id>http://yoursite.com/2019/11/18/#c注意及嵌套循环/</id>
+    <published>2019-11-18T15:31:00.161Z</published>
+    <updated>2019-11-18T15:31:00.162Z</updated>
+    
+    <content type="html"><![CDATA[<p>#循环嵌套<br>##1,外层循环控制行，内层控制具体的输入格式；<br>##2,例题continue语句求1~100内非五倍数的和；即如果if条件成立，执行continue的上一语句；不成立则执行下一步；<br>##3，例如求塔低的灯数：采用试探法，设顶为 x，即for(x=1;;x++),让x从初值1开始循环，直至灯数等于所求的灯数；<br>##4，数字比较大时要采用long int定义；<br>##5，对于1到n的平方和小于某个数时，求n，用do,while语句注意while后面的分号（s=s+n*n;n=n+1)但结果要为（n-1)!!!注意<br>##6，计算相邻两项之和等于后一项的方法：定义两个初值后再换值<br>##7，求1000以内最大的20个素数之和：列出几个条件【for(a=1000;a&gt;=1;a–) for(j=2;j&lt;a;j++)  if(a%j==0)break;   if(j==a&amp;&amp;i&lt;=20)/s=s+a;i++;其中i统计素数个数；if(i&gt;20)break;  后输出结果！<br>##8，求双胞胎数的个数【200,1000】两素数差为2为双胞胎数。用变量i循环，用n统计双胞胎数个数………</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#循环嵌套&lt;br&gt;##1,外层循环控制行，内层控制具体的输入格式；&lt;br&gt;##2,例题continue语句求1~100内非五倍数的和；即如果if条件成立，执行continue的上一语句；不成立则执行下一步；&lt;br&gt;##3，例如求塔低的灯数：采用试探法，设顶为 x，即for(
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>高数1</title>
