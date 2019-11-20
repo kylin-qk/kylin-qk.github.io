@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-20T14:31:18.451Z</updated>
+  <updated>2019-11-20T14:47:02.498Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>不定积分</title>
+    <link href="http://yoursite.com/2019/11/20/%E4%B8%8D%E5%AE%9A%E7%A7%AF%E5%88%86/"/>
+    <id>http://yoursite.com/2019/11/20/不定积分/</id>
+    <published>2019-11-20T14:47:02.496Z</published>
+    <updated>2019-11-20T14:47:02.498Z</updated>
+    
+    <content type="html"><![CDATA[<p>#不定积分换元积分法<br>换元积分（一类和二类）；<br>分部积分法公式要记牢；<br>有理函数的不定积分：有理分式化为若干个简单分时之和；<br>有理真分式的不定积分要记忆；<br>三角函数的不定积分；<br>简单有理函数的不定积分例如:2f(1/(t^2-1)dt=ln(|t-1/t+1)|<br>###现在我还没有适应这个语法，待后续会有精彩的</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#不定积分换元积分法&lt;br&gt;换元积分（一类和二类）；&lt;br&gt;分部积分法公式要记牢；&lt;br&gt;有理函数的不定积分：有理分式化为若干个简单分时之和；&lt;br&gt;有理真分式的不定积分要记忆；&lt;br&gt;三角函数的不定积分；&lt;br&gt;简单有理函数的不定积分例如:2f(1/(t^2-1)dt=l
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>数组小杂记</title>
