@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-20T13:49:32.314Z</updated>
+  <updated>2019-11-20T14:31:18.451Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,42 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>New</title>
-    <link href="http://yoursite.com/2019/11/20/New/"/>
-    <id>http://yoursite.com/2019/11/20/New/</id>
-    <published>2019-11-20T13:49:32.312Z</published>
-    <updated>2019-11-20T13:49:32.314Z</updated>
-    
-    <content type="html"><![CDATA[<p>#不定积分<br>1，原函数，不定积分的定义，性质；<br>2，换元积分法:第一类换元法也叫凑微分法；第二类换元法$\frac ab$</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;#不定积分&lt;br&gt;1，原函数，不定积分的定义，性质；&lt;br&gt;2，换元积分法:第一类换元法也叫凑微分法；第二类换元法$\frac ab$&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
     <title>数组小杂记</title>
     <link href="http://yoursite.com/2019/11/20/%E6%95%B0%E7%BB%84%E5%B0%8F%E6%9D%82%E8%AE%B0/"/>
     <id>http://yoursite.com/2019/11/20/数组小杂记/</id>
     <published>2019-11-20T13:15:26.434Z</published>
-    <updated>2019-11-20T13:15:26.436Z</updated>
+    <updated>2019-11-20T14:31:18.451Z</updated>
     
-    <content type="html"><![CDATA[<p>#几种算法<br>##1，冒泡算法：先定义一个a[5],用两个for循环for(p=1;p&lt;5;p++);for(i=0;i&lt;5-p;i++); （第一个for是查找次数<br>##2，选择排序法：先选择最小的那个值，数组中的数有固定的次序；<br>##3，查找法（在一个数列中）从键盘上输入一个数显示其在数列中的位置；若没有则输出不存在；二分查找法前提要有顺序，从中间开始查找；<br>##4，二维数组，第一个元素为a[0,0]则最后一个为…..二维数组行优先原则；<br>##5，二维数组的运用:矩阵的转置</p>]]></content>
+    <content type="html"><![CDATA[<p>，#几种算法<br>1，冒泡算法：先定义一个a[5],用两个for循环for(p=1;p&lt;5;p++);for(i=0;i&lt;5-p;i++); （第一个for是查找次数<br>2，选择排序法：先选择最小的那个值，数组中的数有固定的次序；<br>3，查找法（在一个数列中）从键盘上输入一个数显示其在数列中的位置；若没有则输出不存在；二分查找法前提要有顺序，从中间开始查找；<br>4，二维数组，第一个元素为a[0,0]则最后一个为…..二维数组行优先原则；<br>5，二维数组的运用:矩阵的转置，字符型数组末尾有”\0”;</p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;#几种算法&lt;br&gt;##1，冒泡算法：先定义一个a[5],用两个for循环for(p=1;p&amp;lt;5;p++);for(i=0;i&amp;lt;5-p;i++); （第一个for是查找次数&lt;br&gt;##2，选择排序法：先选择最小的那个值，数组中的数有固定的次序；&lt;br&gt;##3，查找
+        &lt;p&gt;，#几种算法&lt;br&gt;1，冒泡算法：先定义一个a[5],用两个for循环for(p=1;p&amp;lt;5;p++);for(i=0;i&amp;lt;5-p;i++); （第一个for是查找次数&lt;br&gt;2，选择排序法：先选择最小的那个值，数组中的数有固定的次序；&lt;br&gt;3，查找法（在一个
       
     
     </summary>
