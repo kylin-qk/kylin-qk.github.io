@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-21T07:30:48.062Z</updated>
+  <updated>2019-11-23T14:42:38.534Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>数组1</title>
+    <link href="http://yoursite.com/2019/11/23/%E6%95%B0%E7%BB%841/"/>
+    <id>http://yoursite.com/2019/11/23/数组1/</id>
+    <published>2019-11-23T14:42:38.532Z</published>
+    <updated>2019-11-23T14:42:38.534Z</updated>
+    
+    <content type="html"><![CDATA[<p>#数组<br>1，元素下标从0开始，所以循环变量从0开始；（<em>简单的事情重复做，重复的事情用心做，用心的事情坚持做</em>）<br>2，<img src="https://i.imgur.com/yP0sQ6z.jpg" alt="数组"><br>3，计算机中的查找叫做穷举法，所谓的冒泡排序就是把一个数与后面的相邻数比较，第一轮比较次数为数组长度减1,；<br>4，比较轮数N-1，每轮比较次数(N-1)-i(<em>i为循环变量</em>）<br>5,逆序实际上就是i和N-i-1位上的数字交换位置；<br>6，数组元素的删除和插入，数组是一个连续的内存空间，一旦被定义无法改变：删除的逻辑是查找要删除的数字。从下标开始，后面一个数覆盖前面一个数，接着数组的总长度减一。   </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#数组&lt;br&gt;1，元素下标从0开始，所以循环变量从0开始；（&lt;em&gt;简单的事情重复做，重复的事情用心做，用心的事情坚持做&lt;/em&gt;）&lt;br&gt;2，&lt;img src=&quot;https://i.imgur.com/yP0sQ6z.jpg&quot; alt=&quot;数组&quot;&gt;&lt;br&gt;3，计算机中的查找
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>英文论文写作网站</title>
