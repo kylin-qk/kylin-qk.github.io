@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-23T15:08:25.920Z</updated>
+  <updated>2019-11-24T08:27:08.532Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>指针预习</title>
+    <link href="http://yoursite.com/2019/11/24/%E6%8C%87%E9%92%88%E9%A2%84%E4%B9%A0/"/>
+    <id>http://yoursite.com/2019/11/24/指针预习/</id>
+    <published>2019-11-24T08:27:08.531Z</published>
+    <updated>2019-11-24T08:27:08.532Z</updated>
+    
+    <content type="html"><![CDATA[<p>#指针小结<br>1，指针是一个变量，只不过存储的是另一个变量的内存地址；<br>2，指针变量可以赋值，指针的指向在程序执行中可以改变；<br>3，数组储存在一块连续的内存空间中，数组名就是 这块连续空间的首地址；<br>4，为指针数组的指针赋值：int *ptr num可以把数组名直接赋值给某个指针；也可以int *ptr num=&amp;num[0]，数组首元素赋值给指针</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#指针小结&lt;br&gt;1，指针是一个变量，只不过存储的是另一个变量的内存地址；&lt;br&gt;2，指针变量可以赋值，指针的指向在程序执行中可以改变；&lt;br&gt;3，数组储存在一块连续的内存空间中，数组名就是 这块连续空间的首地址；&lt;br&gt;4，为指针数组的指针赋值：int *ptr num可
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>必须的记得的第一次志愿活动</title>
