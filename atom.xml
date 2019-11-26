@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-24T08:27:08.532Z</updated>
+  <updated>2019-11-26T14:57:50.685Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>指针</title>
+    <link href="http://yoursite.com/2019/11/26/%E6%8C%87%E9%92%88/"/>
+    <id>http://yoursite.com/2019/11/26/指针/</id>
+    <published>2019-11-26T14:57:50.685Z</published>
+    <updated>2019-11-26T14:57:50.685Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="指针"><a href="#指针" class="headerlink" title="指针"></a>指针</h1><ul><li><p>由于每个整型数组元素在内存中占4个字节，因此P+1引起地址变量为4,两个指针变量相减，差为两个指针变量所指的储存单元之间的元素个数；指向结构体的指针  </p></li><li><p>函数一旦遇到 return 语句就立即返回，后面的所有语句都不会被执行到了。从这个角度看，return 语句还有强制结束函数执行的作用。  </p></li><li><p>有些时候，程序的逻辑要求我们必须逐个字符地为数组赋值，这个时候就很容易遗忘字符串结束标志’\0’。下面的代码中，我们将 26 个大写英文字符存入字符数组，并以字符串的形式输出：<br>#include &lt;stdio.h&gt;<br>int main(){<br>  char str[30];<br>  char c;<br>  int i;<br>  for(c=65,i=0; c&lt;=90; c++,i++){</p><pre><code>str[i] = c;</code></pre><p>  }<br>  printf(“%s\n”, str);</p><p>  return 0;<br>}</p></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;指针&quot;&gt;&lt;a href=&quot;#指针&quot; class=&quot;headerlink&quot; title=&quot;指针&quot;&gt;&lt;/a&gt;指针&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;由于每个整型数组元素在内存中占4个字节，因此P+1引起地址变量为4,两个指针变量相减，差为两个指针变量所指的储存单元之间的
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>指针预习</title>
