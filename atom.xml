@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-30T07:31:49.409Z</updated>
+  <updated>2019-11-30T08:58:20.862Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>高数提醒3</title>
+    <link href="http://yoursite.com/2019/11/30/%E9%AB%98%E6%95%B0%E6%8F%90%E9%86%923/"/>
+    <id>http://yoursite.com/2019/11/30/高数提醒3/</id>
+    <published>2019-11-30T08:58:20.861Z</published>
+    <updated>2019-11-30T08:58:20.862Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="第三章-微分中值定理与导数的应用"><a href="#第三章-微分中值定理与导数的应用" class="headerlink" title="第三章-微分中值定理与导数的应用"></a>第三章-微分中值定理与导数的应用</h1><h2 id="微分中值定理"><a href="#微分中值定理" class="headerlink" title="微分中值定理"></a>微分中值定理</h2><h3 id="罗尔中值定理"><a href="#罗尔中值定理" class="headerlink" title="罗尔中值定理"></a>罗尔中值定理</h3><p>闭区间连续，开区间可导，区间端点值相等，则<strong>至少</strong>存在一点&amp;，使得f(&amp;)的导数=0；  </p><h3 id="拉格朗日中定理"><a href="#拉格朗日中定理" class="headerlink" title="拉格朗日中定理"></a>拉格朗日中定理</h3><p>闭区间连续，开区间可导，则<strong>至少</strong>存在一点&amp;，使得切线斜率等于割线斜率；做辅助函数的思想；<br>推论，如果函数f(x)再开区间I内的导数恒为零，那么f(x)在区间I内是一个常数；  </p><h3 id="柯西中值定理"><a href="#柯西中值定理" class="headerlink" title="柯西中值定理"></a>柯西中值定理</h3><p>闭区间连续，开区间可导，分母导数（一个）不为0，那么再开区间上<strong>至少</strong>存在一点&amp;，使得<strong>两函数的该点导数之比等于两函数区间端点值之差之比</strong>   </p><h2 id="洛必达法则"><a href="#洛必达法则" class="headerlink" title="洛必达法则"></a>洛必达法则</h2><p>记忆等价无穷小，及几种指导手册上的几种类型  </p><h2 id="泰勒公式"><a href="#泰勒公式" class="headerlink" title="泰勒公式"></a>泰勒公式</h2><p>记住p104几种常见的泰勒展开式；在计算中进行替换；  </p><h2 id="函数的单调性-极值与最值"><a href="#函数的单调性-极值与最值" class="headerlink" title="函数的单调性 极值与最值"></a>函数的单调性 极值与最值</h2><p>知道驻点是导数等于0的点；  </p><h2 id="函数的凹凸性，渐近线及图像描绘"><a href="#函数的凹凸性，渐近线及图像描绘" class="headerlink" title="函数的凹凸性，渐近线及图像描绘"></a>函数的凹凸性，渐近线及图像描绘</h2><p>1，若函数f(x)在区间I上连续，在I0内有二阶导数，那么若二阶导数&gt;0,则f(x)的图像在I上是凹的；<br>2，左右凹凸性相反的点曲线的一个拐点；<br>3，曲线的渐近线，求出k和b的值即可；  </p><h2 id="曲率"><a href="#曲率" class="headerlink" title="曲率"></a>曲率</h2><p>1，弧微分（p123公式)；<br>2，曲率及计算公式；<strong>圆曲率等于圆半径的倒数</strong>，圆的半径越小，曲率越大，弯曲的越厉害；<br>3工程上常用曲率圆在一点处的一段圆弧来近似替代小曲线弧。  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;第三章-微分中值定理与导数的应用&quot;&gt;&lt;a href=&quot;#第三章-微分中值定理与导数的应用&quot; class=&quot;headerlink&quot; title=&quot;第三章-微分中值定理与导数的应用&quot;&gt;&lt;/a&gt;第三章-微分中值定理与导数的应用&lt;/h1&gt;&lt;h2 id=&quot;微分中值定理&quot;&gt;&lt;
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>高数提醒5</title>
