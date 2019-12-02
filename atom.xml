@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-11-30T08:58:20.862Z</updated>
+  <updated>2019-12-02T15:35:02.282Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>论期末</title>
+    <link href="http://yoursite.com/2019/12/02/%E8%AE%BA%E6%9C%9F%E6%9C%AB/"/>
+    <id>http://yoursite.com/2019/12/02/论期末/</id>
+    <published>2019-12-02T15:35:02.281Z</published>
+    <updated>2019-12-02T15:35:02.282Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="期末心得"><a href="#期末心得" class="headerlink" title="期末心得"></a>期末心得</h1><h2 id="高数"><a href="#高数" class="headerlink" title="高数"></a>高数</h2><p>高数上完估计该要几个星期，没有时间复习了，所以从现在开始要制定一个计划了：<br>1，上课还是要少听老是讲点，扎进时间找网课补救一下；<br>2，把之前的高数卷子找出来做一遍，稳扎稳打；  </p><h2 id="英语"><a href="#英语" class="headerlink" title="英语"></a>英语</h2><p>1，听力是我的大问题啊，一定要坚持把自己的那四套题做完，每天练习听力，同时也为四级蓄力；<br>2，熟读英语课文，防止考试出现原文翻译；<br>3，背几篇英语作文当范文；  </p><h2 id="c语言"><a href="#c语言" class="headerlink" title="c语言"></a>c语言</h2><p>1，这个学科现在对我们来说都是个大问题，上课不清楚，感觉在玩，这老师也不怎么负责，连具体的考法及基础练习都得不到保障，给自己造成了巨大的压力；<br>2，从4号开始估计真的要没日没夜的备战考试了，这大学的第一场仗一定要打的赶紧利落且漂亮，一定不要辜负所有人！老c我给你玩定了；<br><strong>这作为一个提醒自己的方式，要加油啊</strong>  </p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;期末心得&quot;&gt;&lt;a href=&quot;#期末心得&quot; class=&quot;headerlink&quot; title=&quot;期末心得&quot;&gt;&lt;/a&gt;期末心得&lt;/h1&gt;&lt;h2 id=&quot;高数&quot;&gt;&lt;a href=&quot;#高数&quot; class=&quot;headerlink&quot; title=&quot;高数&quot;&gt;&lt;/a&gt;高数&lt;/h
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>高数提醒3</title>
@@ -428,28 +450,6 @@
     <updated>2019-11-08T16:48:01.161Z</updated>
     
     <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2019/11/08/hello-world/"/>
-    <id>http://yoursite.com/2019/11/08/hello-world/</id>
-    <published>2019-11-08T15:19:14.180Z</published>
-    <updated>2019-11-08T15:19:14.180Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
     
     </summary>
     
