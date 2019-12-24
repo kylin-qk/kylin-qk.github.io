@@ -51,18 +51,18 @@
   };
 </script>
 
-  <meta name="description" content="循环嵌套1,外层循环控制行，内层控制具体的输入格式；2,例题continue语句求1~100内非五倍数的和；即如果if条件成立，执行continue的上一语句；不成立则执行下一步；3，例如求塔低的灯数：采用试探法，设顶为 x，即for(x=1;;x++),让x从初值1开始循环，直至灯数等于所求的灯数；4，数字比较大时要采用long int定义；5，对于1到n的平方和小于某个数时，求n，用do,wh">
+  <meta name="description" content="指针类型转换void fun(char);int a=125,b;fun((char)&amp;amp;a);void fun(chars){charc;c=(s+3);(s+3)=(s+0);(s+0)=c;c=(s+2);(s+2)=(s+1);*(s+1)=c;}注意这是一个 32 位程序，故 int 类型占了四个字节，char 类型占一个字节。函数 fun 的作用是把一个整数的四个字节的顺序来个颠">
 <meta name="keywords" content="兴趣，知识">
 <meta property="og:type" content="article">
-<meta property="og:title" content="#c注意及嵌套循环">
-<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;11&#x2F;18&#x2F;#c%E6%B3%A8%E6%84%8F%E5%8F%8A%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF&#x2F;index.html">
+<meta property="og:title" content="指针回顾1">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2019&#x2F;12&#x2F;24&#x2F;%E6%8C%87%E9%92%88%E5%9B%9E%E9%A1%BE1&#x2F;index.html">
 <meta property="og:site_name" content="秦阔的个人博客">
-<meta property="og:description" content="循环嵌套1,外层循环控制行，内层控制具体的输入格式；2,例题continue语句求1~100内非五倍数的和；即如果if条件成立，执行continue的上一语句；不成立则执行下一步；3，例如求塔低的灯数：采用试探法，设顶为 x，即for(x=1;;x++),让x从初值1开始循环，直至灯数等于所求的灯数；4，数字比较大时要采用long int定义；5，对于1到n的平方和小于某个数时，求n，用do,wh">
+<meta property="og:description" content="指针类型转换void fun(char);int a=125,b;fun((char)&amp;amp;a);void fun(chars){charc;c=(s+3);(s+3)=(s+0);(s+0)=c;c=(s+2);(s+2)=(s+1);*(s+1)=c;}注意这是一个 32 位程序，故 int 类型占了四个字节，char 类型占一个字节。函数 fun 的作用是把一个整数的四个字节的顺序来个颠">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-11-29T16:56:10.364Z">
+<meta property="og:updated_time" content="2019-12-24T10:50:53.582Z">
 <meta name="twitter:card" content="summary">
 
-<link rel="canonical" href="http://yoursite.com/2019/11/18/#c%E6%B3%A8%E6%84%8F%E5%8F%8A%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF/">
+<link rel="canonical" href="http://yoursite.com/2019/12/24/%E6%8C%87%E9%92%88%E5%9B%9E%E9%A1%BE1/">
 
 
 <script id="page-configurations">
@@ -76,7 +76,7 @@
   };
 </script>
 
-  <title>#c注意及嵌套循环 | 秦阔的个人博客</title>
+  <title>指针回顾1 | 秦阔的个人博客</title>
   
 
 
@@ -176,7 +176,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/18/#c%E6%B3%A8%E6%84%8F%E5%8F%8A%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/12/24/%E6%8C%87%E9%92%88%E5%9B%9E%E9%A1%BE1/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -189,7 +189,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          #c注意及嵌套循环
+          指针回顾1
         </h1>
 
         <div class="post-meta">
@@ -199,15 +199,8 @@
               </span>
               <span class="post-meta-item-text">发表于</span>
 
-              <time title="创建时间：2019-11-18 23:31:00" itemprop="dateCreated datePublished" datetime="2019-11-18T23:31:00+08:00">2019-11-18</time>
+              <time title="创建时间：2019-12-24 18:50:53" itemprop="dateCreated datePublished" datetime="2019-12-24T18:50:53+08:00">2019-12-24</time>
             </span>
-              <span class="post-meta-item">
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2019-11-30 00:56:10" itemprop="dateModified" datetime="2019-11-30T00:56:10+08:00">2019-11-30</time>
-              </span>
 
           
 
@@ -220,7 +213,7 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <h1 id="循环嵌套"><a href="#循环嵌套" class="headerlink" title="循环嵌套"></a>循环嵌套</h1><p>1,外层循环控制行，内层控制具体的输入格式；<br>2,例题continue语句求1~100内非五倍数的和；即如果if条件成立，执行continue的上一语句；不成立则执行下一步；<br>3，例如求塔低的灯数：采用试探法，设顶为 x，即for(x=1;;x++),让x从初值1开始循环，直至灯数等于所求的灯数；<br>4，数字比较大时要采用long int定义；<br>5，对于1到n的平方和小于某个数时，求n，用do,while语句注意while后面的分号（s=s+n*n;n=n+1)但结果要为（n-1)!!!注意<br>6，计算相邻两项之和等于后一项的方法：定义两个初值后再换值<br>7，求1000以内最大的20个素数之和：列出几个条件【for(a=1000;a&gt;=1;a–) for(j=2;j&lt;a;j++)  if(a%j==0)break;   if(j==a&amp;&amp;i&lt;=20)/s=s+a;i++;其中i统计素数个数；if(i&gt;20)break;  后输出结果！<br>8，求双胞胎数的个数【200,1000】两素数差为2为双胞胎数。用变量i循环，用n统计双胞胎数个数………</p>
+        <h1 id="指针类型转换"><a href="#指针类型转换" class="headerlink" title="指针类型转换"></a>指针类型转换</h1><p>void fun(char<em>);<br>int a=125,b;<br>fun((char</em>)&amp;a);<br>void fun(char<em>s)<br>{<br>charc;<br>c=</em>(s+3);<em>(s+3)=</em>(s+0);<em>(s+0)=c;<br>c=</em>(s+2);<em>(s+2)=</em>(s+1);*(s+1)=c;<br>}<br>注意这是一个 32 位程序，故 int 类型占了四个字节，char 类型占一个字节。函数 fun 的作用是把一个整数的四个字节的顺序来个颠倒。注意<br>到了吗？在函数调用语句中，实参&amp;a 的结果是一个指针，它的类型是<br>int *，它指向的类型是 int。形参这个指针的类型是 char *，它指向<br>的类型是 char。这样，在实参和形参的结合过程中，我们必须进行一<br>次从 int *类型到 char *类型的转换。结合这个例子，我们可以这样来<br>想象编译器进行转换的过程：编译器先构造一个临时指针 char *temp，<br>然后执行 temp=(char *)&amp;a，最后再把 temp 的值传递给 s。所以最后的结果是：s 的类型是 char *,它指向的类型是 char，它指向的地址就是a的首地址</p>
 
     </div>
 
@@ -234,17 +227,14 @@
 
           <div class="post-nav">
             <div class="post-nav-next post-nav-item">
-                <a href="/2019/11/17/%E9%AB%98%E6%95%B01/" rel="next" title="高数1">
-                  <i class="fa fa-chevron-left"></i> 高数1
+                <a href="/2019/12/04/New%20Document.md%20%20%E5%BE%85%E5%AE%9A/" rel="next" title="New Document.md  待定">
+                  <i class="fa fa-chevron-left"></i> New Document.md  待定
                 </a>
             </div>
 
             <span class="post-nav-divider"></span>
 
             <div class="post-nav-prev post-nav-item">
-                <a href="/2019/11/20/%E6%95%B0%E7%BB%84%E5%B0%8F%E6%9D%82%E8%AE%B0/" rel="prev" title="数组小杂记">
-                  数组小杂记 <i class="fa fa-chevron-right"></i>
-                </a>
             </div>
           </div>
       </footer>
@@ -283,7 +273,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#循环嵌套"><span class="nav-number">1.</span> <span class="nav-text">循环嵌套</span></a></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#指针类型转换"><span class="nav-number">1.</span> <span class="nav-text">指针类型转换</span></a></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -297,7 +287,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-count">23</span>
           <span class="site-state-item-name">日志</span>
         </a>
       </div>

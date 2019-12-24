@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-12-03T06:02:17.578Z</updated>
+  <updated>2019-12-24T10:50:53.582Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,51 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>指针回顾1</title>
+    <link href="http://yoursite.com/2019/12/24/%E6%8C%87%E9%92%88%E5%9B%9E%E9%A1%BE1/"/>
+    <id>http://yoursite.com/2019/12/24/指针回顾1/</id>
+    <published>2019-12-24T10:50:53.581Z</published>
+    <updated>2019-12-24T10:50:53.582Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="指针类型转换"><a href="#指针类型转换" class="headerlink" title="指针类型转换"></a>指针类型转换</h1><p>void fun(char<em>);<br>int a=125,b;<br>fun((char</em>)&amp;a);<br>void fun(char<em>s)<br>{<br>charc;<br>c=</em>(s+3);<em>(s+3)=</em>(s+0);<em>(s+0)=c;<br>c=</em>(s+2);<em>(s+2)=</em>(s+1);*(s+1)=c;<br>}<br>注意这是一个 32 位程序，故 int 类型占了四个字节，char 类型占一个字节。函数 fun 的作用是把一个整数的四个字节的顺序来个颠倒。注意<br>到了吗？在函数调用语句中，实参&amp;a 的结果是一个指针，它的类型是<br>int *，它指向的类型是 int。形参这个指针的类型是 char *，它指向<br>的类型是 char。这样，在实参和形参的结合过程中，我们必须进行一<br>次从 int *类型到 char *类型的转换。结合这个例子，我们可以这样来<br>想象编译器进行转换的过程：编译器先构造一个临时指针 char *temp，<br>然后执行 temp=(char *)&amp;a，最后再把 temp 的值传递给 s。所以最后的结果是：s 的类型是 char *,它指向的类型是 char，它指向的地址就是a的首地址</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;指针类型转换&quot;&gt;&lt;a href=&quot;#指针类型转换&quot; class=&quot;headerlink&quot; title=&quot;指针类型转换&quot;&gt;&lt;/a&gt;指针类型转换&lt;/h1&gt;&lt;p&gt;void fun(char&lt;em&gt;);&lt;br&gt;int a=125,b;&lt;br&gt;fun((char&lt;/em&gt;)
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>New Document.md  待定</title>
+    <link href="http://yoursite.com/2019/12/04/New%20Document.md%20%20%E5%BE%85%E5%AE%9A/"/>
+    <id>http://yoursite.com/2019/12/04/New Document.md  待定/</id>
+    <published>2019-12-04T09:22:12.583Z</published>
+    <updated>2019-12-04T09:22:12.584Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="提醒"><a href="#提醒" class="headerlink" title="提醒"></a>提醒</h1><p>result=i<em>j;<br>printf(“%d</em>%d=%-3d”,i,j,result）</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;提醒&quot;&gt;&lt;a href=&quot;#提醒&quot; class=&quot;headerlink&quot; title=&quot;提醒&quot;&gt;&lt;/a&gt;提醒&lt;/h1&gt;&lt;p&gt;result=i&lt;em&gt;j;&lt;br&gt;printf(“%d&lt;/em&gt;%d=%-3d”,i,j,result）&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>资料1</title>
@@ -311,9 +356,9 @@
   </entry>
   
   <entry>
-    <title>#c注意及嵌套循环</title>
-    <link href="http://yoursite.com/2019/11/18/#c%E6%B3%A8%E6%84%8F%E5%8F%8A%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF/"/>
-    <id>http://yoursite.com/2019/11/18/#c注意及嵌套循环/</id>
+    <title>c注意及嵌套循环</title>
+    <link href="http://yoursite.com/2019/11/18/c%E6%B3%A8%E6%84%8F%E5%8F%8A%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF/"/>
+    <id>http://yoursite.com/2019/11/18/c注意及嵌套循环/</id>
     <published>2019-11-18T15:31:00.161Z</published>
     <updated>2019-11-29T16:56:10.364Z</updated>
     
@@ -412,51 +457,6 @@
       
       
         &lt;h1 id=&quot;选择结构&quot;&gt;&lt;a href=&quot;#选择结构&quot; class=&quot;headerlink&quot; title=&quot;选择结构&quot;&gt;&lt;/a&gt;选择结构&lt;/h1&gt;&lt;p&gt;选择结构（分支结构）涉及到的关键字包括 if、else、switch、case、break，还有一个条件运算符? :（这是C
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>随记</title>
-    <link href="http://yoursite.com/2019/11/12/%E9%9A%8F%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/11/12/随记/</id>
-    <published>2019-11-12T06:48:54.408Z</published>
-    <updated>2019-11-12T06:48:54.409Z</updated>
-    
-    <content type="html"><![CDATA[<p>#小小的c语言说明<br>……………………..<br>m=++n-2等价于n=n+1,m=n-2;…………….m=n++-2;等价于m=n-2<br>,mn=n+1;<br>一定要努力的学好c语言，多上机子，加油！！！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;#小小的c语言说明&lt;br&gt;……………………..&lt;br&gt;m=++n-2等价于n=n+1,m=n-2;…………….m=n++-2;等价于m=n-2&lt;br&gt;,mn=n+1;&lt;br&gt;一定要努力的学好c语言，多上机子，加油！！！&lt;/p&gt;
-
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>New Document</title>
-    <link href="http://yoursite.com/2019/11/11/New%20Document/"/>
-    <id>http://yoursite.com/2019/11/11/New Document/</id>
-    <published>2019-11-11T06:35:27.115Z</published>
-    <updated>2019-11-29T16:57:00.174Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="决心"><a href="#决心" class="headerlink" title="决心"></a>决心</h1><h2 id="学习单片机"><a href="#学习单片机" class="headerlink" title="学习单片机"></a>学习单片机</h2><p>昨天我打算学习单片机，对现在的我来说学习这个的难度还是比较大的，关键是没人可以手把手指导，问题在网上查起来比较麻烦。但既然选择了远方，那就必须风雨兼程！</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;决心&quot;&gt;&lt;a href=&quot;#决心&quot; class=&quot;headerlink&quot; title=&quot;决心&quot;&gt;&lt;/a&gt;决心&lt;/h1&gt;&lt;h2 id=&quot;学习单片机&quot;&gt;&lt;a href=&quot;#学习单片机&quot; class=&quot;headerlink&quot; title=&quot;学习单片机&quot;&gt;&lt;/a&gt;学习单片
       
     
     </summary>
