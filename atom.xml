@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-12T09:43:43.379Z</updated>
+  <updated>2020-02-13T04:20:50.233Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2020/02/12/%E9%93%BE%E8%A1%A8/"/>
     <id>http://yoursite.com/2020/02/12/链表/</id>
     <published>2020-02-12T09:43:43.377Z</published>
-    <updated>2020-02-12T09:43:43.379Z</updated>
+    <updated>2020-02-13T04:20:50.233Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h1><h4 id="动态创建一个链表：动态内存申请-模块化设计"><a href="#动态创建一个链表：动态内存申请-模块化设计" class="headerlink" title="动态创建一个链表：动态内存申请+模块化设计"></a>动态创建一个链表：动态内存申请+模块化设计</h4><ol><li>创建链表（创建一个表头表示整个链表）  </li><li>创建节点  </li><li>插入节点  </li><li>删除节点  </li><li>打印遍历链表（测试）</li></ol>]]></content>
+    <content type="html"><![CDATA[<h1 id="链表"><a href="#链表" class="headerlink" title="链表"></a>链表</h1><h4 id="动态创建一个链表：动态内存申请-模块化设计"><a href="#动态创建一个链表：动态内存申请-模块化设计" class="headerlink" title="动态创建一个链表：动态内存申请+模块化设计"></a>动态创建一个链表：动态内存申请+模块化设计</h4><ol><li>创建链表（创建一个表头表示整个链表）  </li><li>创建节点  </li><li>插入节点  </li><li>删除节点  </li><li>打印遍历链表（测试）  </li><li>while(p) 判断链表是否结束 p!=NULL</li><li>P-&gt;next 而P++是移动了四个字节 6,7两条语句二级传说85%可用  </li><li>链表要开辟空间有专门的函数，将新建的数据指向上一个空间，将最后一个指向为NULL;  </li><li>关于链表的公式说法：首先开辟一个空间，用两个指针指向它；根据你的链表的长度，利用循环创建多个元素；在开辟一个空间，用第三个指针指向它；把刚开辟的空间地址，赋值给第一次开辟指针的next成员  p-&gt;next=0;  </li><li>删除链表中的数据</li></ol>]]></content>
     
     <summary type="html">
     
