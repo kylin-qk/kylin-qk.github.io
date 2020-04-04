@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2020-02-13T04:20:50.233Z</updated>
+  <updated>2020-03-09T07:17:14.560Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,99 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ps 小计</title>
+    <link href="http://yoursite.com/2020/03/09/ps%20%E5%B0%8F%E8%AE%A1/"/>
+    <id>http://yoursite.com/2020/03/09/ps 小计/</id>
+    <published>2020-03-09T07:17:14.558Z</published>
+    <updated>2020-03-09T07:17:14.560Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="ps小白知识点"><a href="#ps小白知识点" class="headerlink" title="ps小白知识点"></a>ps小白知识点</h1><h2 id="常用快捷键"><a href="#常用快捷键" class="headerlink" title="常用快捷键"></a>常用快捷键</h2><p>ctrl+z 返回上一步 ctrl+enter 从路径到选取 ctrl+alt+z 取消多步 Ctrl +u色相饱和度<br>按住ctrl键可以对自由变换的图形的一角进行伸拉 ctrl+shift+N 新建空白画布 ctrl+E合并图层</p><h2 id="通道抠图方法"><a href="#通道抠图方法" class="headerlink" title="通道抠图方法"></a>通道抠图方法</h2><p>复制通道 &gt; 反相（ctrl+i）黑白交换颜色，人物黑的时候要反相（最终目的是要让所抠的物体变成白色）&gt; 色阶（ctrl+L加深黑白颜色对比）&gt; 按住ctrl+鼠标点击缩略图 &gt; ctrl+j(复制图层) </p><h2 id="蒙版抠图"><a href="#蒙版抠图" class="headerlink" title="蒙版抠图"></a>蒙版抠图</h2><p>上一图层的向下一图层某选区填充</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;ps小白知识点&quot;&gt;&lt;a href=&quot;#ps小白知识点&quot; class=&quot;headerlink&quot; title=&quot;ps小白知识点&quot;&gt;&lt;/a&gt;ps小白知识点&lt;/h1&gt;&lt;h2 id=&quot;常用快捷键&quot;&gt;&lt;a href=&quot;#常用快捷键&quot; class=&quot;headerlink&quot; ti
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>电子</title>
+    <link href="http://yoursite.com/2020/03/06/%E7%94%B5%E5%AD%90/"/>
+    <id>http://yoursite.com/2020/03/06/电子/</id>
+    <published>2020-03-06T04:13:33.968Z</published>
+    <updated>2020-03-06T04:13:33.969Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="电子学基础"><a href="#电子学基础" class="headerlink" title="电子学基础"></a>电子学基础</h1><h3 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h3><p>集总元件：发生电磁过程都在元件内部的元件 <code>分清是关联的还是非关联的在运用欧姆定律时一定要注意公式匹配</code>能量是对功率的积分<br>电流（正电荷）有低电位向高电位克服外力做工发出热量<br>电压源不能短路，电流源不能开路</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;电子学基础&quot;&gt;&lt;a href=&quot;#电子学基础&quot; class=&quot;headerlink&quot; title=&quot;电子学基础&quot;&gt;&lt;/a&gt;电子学基础&lt;/h1&gt;&lt;h3 id=&quot;注意&quot;&gt;&lt;a href=&quot;#注意&quot; class=&quot;headerlink&quot; title=&quot;注意&quot;&gt;&lt;/a&gt;注
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>数据结构杂</title>
+    <link href="http://yoursite.com/2020/02/26/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E6%9D%82/"/>
+    <id>http://yoursite.com/2020/02/26/数据结构杂/</id>
+    <published>2020-02-26T03:49:02.094Z</published>
+    <updated>2020-02-26T03:49:02.094Z</updated>
+    
+    <content type="html"><![CDATA[<p>#数据结构<br>##线性表  </p><ol><li>什么时候要传入参数的引用“&amp;”–对参数的修改结果需要带回来  </li><li>基本运算：创销增删改查  </li><li>顺序表–用顺序储存的方式实现线性表；顺序存储：把逻辑上相邻的元素使其物理上也相邻  </li><li>InitList(&amp;L):初始化表，构造一个空的线性表，用于分配内存空间  </li><li>GetElem(L,i)按位查找获取表中第i个位置的元素的值  </li><li>LocateElem(L,e)按值查找操作  <h3 id="单链表"><a href="#单链表" class="headerlink" title="单链表"></a>单链表</h3></li></ol><ul><li>单链表结点 定义一个结构体。要表示一个单链表时只需声明一个头指针L,指向单链表的第一个结点</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;#数据结构&lt;br&gt;##线性表  &lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;什么时候要传入参数的引用“&amp;amp;”–对参数的修改结果需要带回来  &lt;/li&gt;
+&lt;li&gt;基本运算：创销增删改查  &lt;/li&gt;
+&lt;li&gt;顺序表–用顺序储存的方式实现线性表；顺序存储：把逻辑上相邻的元素使其物理上也相
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>c++</title>
+    <link href="http://yoursite.com/2020/02/25/c++/"/>
+    <id>http://yoursite.com/2020/02/25/c++/</id>
+    <published>2020-02-25T08:40:19.751Z</published>
+    <updated>2020-02-25T08:40:19.752Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="c"><a href="#c" class="headerlink" title="c++"></a>c++</h1><h3 id=""><a href="#" class="headerlink" title=""></a></h3><ol><li>相同的函数名可以有若干个不同的函数体，在调用同一函数时由于不同的环境可能有不同的行为，这种功能叫做函数的多态  </li><li>类的一般定义形式class&lt;类名&gt;{私有，保护，公用}；</li><li>成员函数定义的结构如下：&lt;类型&gt;&lt;类名&gt;::&lt;成员函数名&gt;(&lt;参数表&gt;)；类的成员函数是对累的私有数据成员进行操做的唯一途径。  </li><li>构造函数也是类的一个成员函数，构造函数的函数名与类名相同，而且不能有任何返回类型，也不能标为void  </li><li>构造函数定义对象的语法结构为：&lt;类名&gt;&lt;对象名&gt;（&lt;构造函数的参数表&gt;）；  </li><li>构造函数在定义对象时被直接调用，程序中不能直接调用构造函数</li></ol>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h1 id=&quot;c&quot;&gt;&lt;a href=&quot;#c&quot; class=&quot;headerlink&quot; title=&quot;c++&quot;&gt;&lt;/a&gt;c++&lt;/h1&gt;&lt;h3 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;相同的函数
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>链表</title>
@@ -369,94 +462,6 @@
       
       
         &lt;p&gt;，#几种算法&lt;br&gt;1，冒泡算法：先定义一个a[5],用两个for循环for(p=1;p&amp;lt;5;p++);for(i=0;i&amp;lt;5-p;i++); （第一个for是查找次数&lt;br&gt;2，选择排序法：先选择最小的那个值，数组中的数有固定的次序；&lt;br&gt;3，查找法（在一个
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>c注意及嵌套循环</title>
-    <link href="http://yoursite.com/2019/11/18/c%E6%B3%A8%E6%84%8F%E5%8F%8A%E5%B5%8C%E5%A5%97%E5%BE%AA%E7%8E%AF/"/>
-    <id>http://yoursite.com/2019/11/18/c注意及嵌套循环/</id>
-    <published>2019-11-18T15:31:00.161Z</published>
-    <updated>2019-11-29T16:56:10.364Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="循环嵌套"><a href="#循环嵌套" class="headerlink" title="循环嵌套"></a>循环嵌套</h1><p>1,外层循环控制行，内层控制具体的输入格式；<br>2,例题continue语句求1~100内非五倍数的和；即如果if条件成立，执行continue的上一语句；不成立则执行下一步；<br>3，例如求塔低的灯数：采用试探法，设顶为 x，即for(x=1;;x++),让x从初值1开始循环，直至灯数等于所求的灯数；<br>4，数字比较大时要采用long int定义；<br>5，对于1到n的平方和小于某个数时，求n，用do,while语句注意while后面的分号（s=s+n*n;n=n+1)但结果要为（n-1)!!!注意<br>6，计算相邻两项之和等于后一项的方法：定义两个初值后再换值<br>7，求1000以内最大的20个素数之和：列出几个条件【for(a=1000;a&gt;=1;a–) for(j=2;j&lt;a;j++)  if(a%j==0)break;   if(j==a&amp;&amp;i&lt;=20)/s=s+a;i++;其中i统计素数个数；if(i&gt;20)break;  后输出结果！<br>8，求双胞胎数的个数【200,1000】两素数差为2为双胞胎数。用变量i循环，用n统计双胞胎数个数………</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;循环嵌套&quot;&gt;&lt;a href=&quot;#循环嵌套&quot; class=&quot;headerlink&quot; title=&quot;循环嵌套&quot;&gt;&lt;/a&gt;循环嵌套&lt;/h1&gt;&lt;p&gt;1,外层循环控制行，内层控制具体的输入格式；&lt;br&gt;2,例题continue语句求1~100内非五倍数的和；即如果if条件成
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>高数1</title>
-    <link href="http://yoursite.com/2019/11/17/%E9%AB%98%E6%95%B01/"/>
-    <id>http://yoursite.com/2019/11/17/高数1/</id>
-    <published>2019-11-17T11:19:55.520Z</published>
-    <updated>2019-11-29T17:00:52.168Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="洛必达法则"><a href="#洛必达法则" class="headerlink" title="洛必达法则"></a>洛必达法则</h1><p>1.极限零比零未定型；<br>2.对于极限是无穷大减无穷大，先转化成零比零型在进型计算；<br>3.对于极限是1的无穷大型，可先取对数再转化为零比零型；同理还有零的零次方型；<br>4.对于零比零型的有时要进行适当变形，再利用等价无穷小代换求解；<br>5.还可先进行等价无穷小代换在进行计算；<br>6.如果f(x)在x0的某一邻域有二阶导数，则（x0,y0)是拐点的必要条件是f(x)的二阶导等于零；<br>7.无穷小相加结果为低阶，相乘幂之和；<br>8.导数的定义解题！！！！！<br>9.求积分的方法：  </p><ul><li>将复杂的进行凑分，换元，记公式。（提醒复习之用）  <h2 id="分部积分法：多次运用，转换变量，一般按照反对幂三指顺序，前者为u-后者为v。"><a href="#分部积分法：多次运用，转换变量，一般按照反对幂三指顺序，前者为u-后者为v。" class="headerlink" title="分部积分法：多次运用，转换变量，一般按照反对幂三指顺序，前者为u,后者为v。"></a>分部积分法：多次运用，转换变量，一般按照反对幂三指顺序，前者为u,后者为v。</h2></li></ul>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;洛必达法则&quot;&gt;&lt;a href=&quot;#洛必达法则&quot; class=&quot;headerlink&quot; title=&quot;洛必达法则&quot;&gt;&lt;/a&gt;洛必达法则&lt;/h1&gt;&lt;p&gt;1.极限零比零未定型；&lt;br&gt;2.对于极限是无穷大减无穷大，先转化成零比零型在进型计算；&lt;br&gt;3.对于极限是1的无
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>与单片机相关零碎知识</title>
-    <link href="http://yoursite.com/2019/11/14/%E4%B8%8E%E5%8D%95%E7%89%87%E6%9C%BA%E7%9B%B8%E5%85%B3%E9%9B%B6%E7%A2%8E%E7%9F%A5%E8%AF%86/"/>
-    <id>http://yoursite.com/2019/11/14/与单片机相关零碎知识/</id>
-    <published>2019-11-14T09:03:32.196Z</published>
-    <updated>2019-11-14T09:03:32.197Z</updated>
-    
-    <content type="html"><![CDATA[<p>#与单片机相关零碎知识<br>1.ROM程序储存器 ， 数字电路只有电平高低；<br>2.RS232电平计算机串口：高：-12V,低：12V.<br>3.数字先转换成二进制&rArr;十进制&rArr;十六进制；例如：44&rArr;2CH&rArr;2*16+c;<br>4.异或是实现“必须不同，否则就没有的一种运算；<br>5.最小系统运行的必要条件：电源、晶振、复电位；<br>6.reg52.h(定义特殊功能寄存器和位寄存器；<br>7.按位与：5&amp;2=0<br>      &emsp;&emsp;5=0101； 2=0010全不同则为零；  </p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;#与单片机相关零碎知识&lt;br&gt;1.ROM程序储存器 ， 数字电路只有电平高低；&lt;br&gt;2.RS232电平计算机串口：高：-12V,低：12V.&lt;br&gt;3.数字先转换成二进制&amp;rArr;十进制&amp;rArr;十六进制；例如：44&amp;rArr;2CH&amp;rArr;2*16+c;&lt;br&gt;
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>c语言循环小记</title>
-    <link href="http://yoursite.com/2019/11/12/c%E8%AF%AD%E8%A8%80%E5%BE%AA%E7%8E%AF%E5%B0%8F%E8%AE%B0/"/>
-    <id>http://yoursite.com/2019/11/12/c语言循环小记/</id>
-    <published>2019-11-12T15:15:13.069Z</published>
-    <updated>2019-11-29T16:56:29.647Z</updated>
-    
-    <content type="html"><![CDATA[<h1 id="选择结构"><a href="#选择结构" class="headerlink" title="选择结构"></a>选择结构</h1><p>选择结构（分支结构）涉及到的关键字包括 if、else、switch、case、break，还有一个条件运算符? :（这是C语言中唯一的一个三目运算符）。其中，if…else 是最基本的结构，switch…case 和? :都是由 if…else 演化而来，它们都是为了让程序员书写更加方便。</p><p>你可以只使用 if，也可以 if…else 配对使用。另外要善于使用 switch…case 和? :，有时候它们看起来更加清爽。</p><p>if…else 可以嵌套使用，原则上嵌套的层次（深度）没有限制，但是过多的嵌套层次会让代码结构混乱。 </p><h1 id="循环结构"><a href="#循环结构" class="headerlink" title="循环结构"></a>循环结构</h1><p>C语言中常用的循环结构有 while 循环和 for 循环，它们都可以用来处理同一个问题，一般可以互相代替。</p><p>除了 while 和 for，C语言中还有一个 goto 语句，它也能构成循环结构。不过由于 goto 语句很容易造成代码混乱，维护和阅读困难，饱受诟病，不被推荐，而且 goto 循环完全可以被其他循环取代，所以后来的很多编程语言都取消了 goto 语句，我们也不再讲解。<br>国内很多大学仍然讲解 goto 语句，但也仅仅是完成教材所设定的课程，goto 语句在实际开发中很难见到。<br>对于 while 和 do-while 循环，循环体中应包括使循环趋于结束的语句。</p><p>对于 while 和 do-while 循环，循环变量的初始化操作应该在 while 和 do-while 语句之前完成，而 for 循环可以在内部实现循环变量的初始化。</p><p>for 循环是最常用的循环，它的功能强大，一般都可以代替其他循环。</p><p>最后还要注意 break 和 continue 关键字用于循环结构时的区别：<br>break 用来跳出所有循环，循环语句不再有执行的机会；<br>continue 用来结束本次循环，直接跳到下一次循环，如果循环条件成立，还会继续循环。</p><p>此外，break 关键字还可以用于跳出 switch…case 语句。所谓“跳出”，是指一旦遇到 break，就不再执行 switch 中的任何语句，包括当前分支中的语句和其他分支中的语句；也就是说，整个 switch 执行结束了，接着会执行整个 switch 后面的代码。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;h1 id=&quot;选择结构&quot;&gt;&lt;a href=&quot;#选择结构&quot; class=&quot;headerlink&quot; title=&quot;选择结构&quot;&gt;&lt;/a&gt;选择结构&lt;/h1&gt;&lt;p&gt;选择结构（分支结构）涉及到的关键字包括 if、else、switch、case、break，还有一个条件运算符? :（这是C
       
     
     </summary>
