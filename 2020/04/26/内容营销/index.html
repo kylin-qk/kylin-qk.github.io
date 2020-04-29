@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+  <link rel="alternate" href="/atom.xml" title="秦阔的个人博客" type="application/atom+xml">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.5.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":true,"show_result":true,"style":"mac"},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":false},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: '复制',
+      copy_success: '复制成功',
+      copy_failure: '复制失败'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta name="description" content="内容营销我们应该需要知道的一些小点儿原创 业余的小忙人 零边际 1周前  小白如何利用内容营销引爆手淘流量手淘内容渠道推荐原理基于物品的协同过滤算法是目前业界最普遍的算法。这里由于能力有限就不做过多的解释了，简单的就是这个算法会给用户推荐那些和他们之前喜欢的内容类似的内容。优化方向一：通过社群运营减少老客户流失率；优化方向二：通过内容营销销，增加新增顾客沉淀率；增加商品上新频率，增加商品触点；增加">
+<meta name="keywords" content="兴趣，知识">
+<meta property="og:type" content="article">
+<meta property="og:title" content="内容营销">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;2020&#x2F;04&#x2F;26&#x2F;%E5%86%85%E5%AE%B9%E8%90%A5%E9%94%80&#x2F;index.html">
+<meta property="og:site_name" content="秦阔的个人博客">
+<meta property="og:description" content="内容营销我们应该需要知道的一些小点儿原创 业余的小忙人 零边际 1周前  小白如何利用内容营销引爆手淘流量手淘内容渠道推荐原理基于物品的协同过滤算法是目前业界最普遍的算法。这里由于能力有限就不做过多的解释了，简单的就是这个算法会给用户推荐那些和他们之前喜欢的内容类似的内容。优化方向一：通过社群运营减少老客户流失率；优化方向二：通过内容营销销，增加新增顾客沉淀率；增加商品上新频率，增加商品触点；增加">
+<meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2020-04-26T08:01:24.198Z">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/2020/04/26/%E5%86%85%E5%AE%B9%E8%90%A5%E9%94%80/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>内容营销 | 秦阔的个人博客</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">秦阔的个人博客</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+        <p class="site-subtitle">一个记忆和提升的空间</p>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="切换导航栏">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-home">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>归档</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block " lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2020/04/26/%E5%86%85%E5%AE%B9%E8%90%A5%E9%94%80/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="秦阔">
+      <meta itemprop="description" content="涉猎感兴趣的各种内容">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="秦阔的个人博客">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          内容营销
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+
+              <time title="创建时间：2020-04-26 16:01:24" itemprop="dateCreated datePublished" datetime="2020-04-26T16:01:24+08:00">2020-04-26</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <p>内容营销我们应该需要知道的一些小点儿<br>原创 业余的小忙人 零边际 1周前 </p>
+<p>小白如何利用内容营销引爆手淘流量<br>手淘内容渠道推荐原理<br>基于物品的协同过滤算法是目前业界最普遍的算法。这里由于能力有限就不做过多的解释了，简单的就是这个算法会给用户推荐那些和他们之前喜欢的内容类似的内容。<br>优化方向一：通过社群运营减少老客户流失率；优化方向二：通过内容营销销，增加新增顾客沉淀率；<br>增加商品上新频率，增加商品触点；增加内容数量，增加内容触点；善用老顾客，增加回访数据。<br>如何增加商品内容触点<br>以你为中心，覆盖所有可以覆盖的渠道，内容的推荐流量自然会增加起来。善用新浪微博，这个跟微淘差不多；有好货，猜你喜欢；所有的一切都要以你为中心。<br>超级推荐，增加人群投放；直通车调整促销关键词这两个方法可以猜你喜欢，有好货！<br>确定商品<br>根据报表选择：进入生意参谋——取数——新建报表。填表的时候选择商品，商品sku，选择指标选择7个：加购件数，下单件数，下单金额，下单买家数，支付件数，支付买家数，支付金额；生成excel之后，进行数据透视分析。<br>确定主题<br>类比脑白金的“今年过节不收礼，收礼就收脑白金”，确定简单明了易懂的主题。<br>如何深度运营内容渠道打造热销爆款<br>内容爆款的定义<br>|类别 | 传统运营爆款|   内容运营爆款|<br>|：— |：——-：| ———：|<br>| 销量| 短期冲销量| 持续爆发，销量稳定|<br>| 流量| 增长极端，降落极端| 平稳爆发，且持久发力|<br>| 客单价| 容易陷入价格战| 单坑产出和关联产出均高|<br>内容打爆流程<br>第一步，款式要通过种子用户投票选择。除了微信朋友圈之外，还可以通过微博，贴吧，论坛，微信投票活动营销的二维码扫描有奖，优惠诱之引流更多客户。深度挖掘粉丝圈，这样的微信营销圈子也就不断扩大，客源也就生生不息。<br>第二步，搜索优化。通过产品的色彩，商品的卖点，商品的名称，产品情感四个方向寻找产品独有词汇，通过建立独特的定位主张获得平台流量。<br>第三步，超级推荐。超级推荐已经整合了直通车和钻展的定向功能，所以在新科获取层面有着重要的作用，但是不要单纯的只做超级推荐，需要配合微淘一起运营，同时推广商品和图文，才会达到高投产比。<br>5G时代内容运营重点方向——发挥想象力了，未来！<br>扫描下方二维码，关注本号，一起了解，一起进步！</p>
+<p>微信扫一扫<br>关注该公众号</p>
+
+    </div>
+
+    
+    
+    
+
+      <footer class="post-footer">
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+                <a href="/2020/04/26/%E5%BE%AE%E6%B7%98/" rel="next" title="微淘">
+                  <i class="fa fa-chevron-left"></i> 微淘
+                </a>
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+                <a href="/2020/04/26/%E6%96%B0%E5%BA%97%E6%8E%A8%E5%B9%BF%E6%8A%80%E5%B7%A7/" rel="prev" title="新店推广技巧">
+                  新店推广技巧 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
+      </footer>
+    
+  </article>
+  
+  
+  
+
+  </div>
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">秦阔</p>
+  <div class="site-description" itemprop="description">涉猎感兴趣的各种内容</div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">42</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+  </nav>
+</div>
+  <div class="feed-link motion-element">
+    <a href="/atom.xml" rel="alternate">
+      <i class="fa fa-rss"></i>RSS
+    </a>
+  </div>
+
+
+
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2020</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">秦阔</span>
+</div>
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> 强力驱动 v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">主题 – <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.5.0
+  </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/muse.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
